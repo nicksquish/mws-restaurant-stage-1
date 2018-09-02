@@ -16,3 +16,12 @@
 	    width: 50%;
 	   }
 }
+@media only screen and (max-width: 900px) {
+	section {
+    	min-width: 90%;
+    	padding: 0;
+    	margin: 0;
+}
+	.inside #map-container {
+		display: none;
+}}

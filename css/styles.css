@@ -11,6 +11,7 @@ body {
 	background-color: #fdfdfd;
 	margin: 0;
 	position:relative;
+  overflow-x: hidden;
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
@@ -226,10 +227,11 @@ nav h1 a {
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 200;
-  letter-spacing: 0;
-  margin: 15px 0 30px;
+  letter-spacing: 5px;
+  margin: 10px;
   text-transform: uppercase;
   line-height: 1.1;
+  text-align: center;
 }
 #restaurant-img {
 	width: 90%;
@@ -238,7 +240,6 @@ nav h1 a {
 #restaurant-address {
   font-size: 12pt;
   margin: 10px 0px;
-  text-align: center;
 }
 #restaurant-cuisine {
   background-color: #333;
@@ -254,11 +255,10 @@ nav h1 a {
 }
 #restaurant-container, #reviews-container {
   padding: 140px 40px 30px;
-  width: 50%;
+  max-width: 40%;
 }
 #reviews-container {
-  padding: 0;
-
+  padding: 40px;
 }
 #reviews-container h2 {
   color: #f58500;
@@ -275,7 +275,6 @@ nav h1 a {
   padding: 0;
 }
 .review{
-  background-color: red;
   width: 100%;
 }
 .reviewerName {
@@ -297,36 +296,46 @@ nav h1 a {
   overflow: hidden;
   position: relative;
   width: 100%;
+  border: dotted;
+  border-width: 2px;
 }
 #reviews-list li p {
-  }
+  margin: 10px;
+}
+#reviews-list li p:nth-child(1) {
+  width: 40%;
+  display: inline-block;
+  line-height: 1;
+  font-weight: bolder;
+}
+#reviews-list li p:nth-child(2) {
+  width: 40%;
+  display: inline-block;
+  text-align: right;
+  line-height: 1;
+  float: right;
+  color: #FF0000
+}
+#reviews-list li p:nth-child(3) {
+  text-align: right;
+  color: #FFA800;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+#reviews-list li:last-child {
+  margin-bottom: 100px;
+}
 #restaurant-hours td {
   color: #666;
-  margin: 0;
-  font-size: ;
-  text-align: center;
 }
 .reviewDate, .reviewerName {
   display: inline;
   color: #B9B9B9;
   background-color: #606060;
-  width: 100%;
-}
-.reviewDate{
-}
-#restaurant-hours tr {
-}
-.reviewerComment, .rating{
-  margin: 20px;
+  width: 90%;
 }
 
-.rating{
-  background-color: #E08E00;
-  width: 45%;
-  border: solid;
-  border-radius: 4px;
-  border-color: #E08E00;
-  color: white;
-  text-align: center;
-  font-weight: bolder;
+#restaurant-hours tr {
+  letter-spacing: 1px;
 }
+
