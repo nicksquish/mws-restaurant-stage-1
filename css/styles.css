@@ -154,6 +154,7 @@ nav h1 a {
   padding: 0 0 15px;
   text-align: left;
   border-top-left-radius: 42px;
+  max-width: 40%;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;

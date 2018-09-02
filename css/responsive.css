@@ -1,88 +1,18 @@
-@media only screen and (max-width: 929px) and (min-width: 640px) {
+@media only screen and (max-width: 639px) and (min-width: 1px) {
 	#restaurants-list li {
-    	max-width: 42%;
-}
-
-@media only screen and (max-width: 600px) {
+    	max-width: 90%;
+}}
+@media only screen and (min-width: 1070px) {
+	#restaurants-list li {
+    	max-width: 30%;
+}}
+@media (min-width: 930px) {
 	.inside #map-container {
-		display: none;
-}
-	.inside #map {
-		display: none;
-	}
-
-	#restaurant-container, #reviews-container {
-		border-bottom: 1px solid #d9d9d9;
-		border-top: 1px solid #fff;
-		padding: 140px 40px 30px;
-		width: 100%;
-	}
-	.rating{
-		width:25%;
-	}
-} 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-	.inside #map-container {
-		display: none;
-}
-	.inside #map {
-		display: none;
-	}
-
-	#restaurant-container, #reviews-container {
-		border-bottom: 1px solid #d9d9d9;
-		border-top: 1px solid #fff;
-		margin-top: 5%;
-		margin-bottom: 15%;
-		width: 100%;
-	}
-	.rating{
-		width:25%;
-	}
-	#breadcrumb {
-	    background-color: #eee;
-	    font-size: 2vw;
-	    margin: 0;
-	}
-	#breadcrumb li {
-    	display: inline;
-    	font-size: 4vw;
-    	font-weight: bolder;
-	}
-}
-
-@media only screen 
-  and (min-device-width: 601px) 
-  and (max-device-width: 1000px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-	.inside #map-container {
-		display: none;
-}
-	.inside #map {
-		display: none;
-	}
-
-	#restaurant-container, #reviews-container {
-		border-bottom: 1px solid #d9d9d9;
-		border-top: 1px solid #fff;
-		margin-top: 5%;
-		margin-bottom: 15%;
-		width: 100%;
-	}
-	.rating{
-		width:25%;
-	}
-	#breadcrumb {
-	    background-color: #eee;
-	    font-size: 2vw;
-	    margin: 0;
-	}
-	#breadcrumb li {
-    	display: inline;
-    	font-size: 4vw;
-    	font-weight: bolder;
-	}
+	    background: blue none repeat scroll 0 0;
+	    height: 88%;
+	    position: fixed;
+	    right: 0;
+	    top: 80px;
+	    width: 50%;
+	   }
 }
