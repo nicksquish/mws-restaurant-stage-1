@@ -1,8 +1,8 @@
-@media only screen and (max-width: 639px) and (min-width: 1px) {
+@media (max-width: 639px) and (min-width: 1px) {
 	#restaurants-list li {
     	max-width: 90%;
 }}
-@media only screen and (min-width: 1070px) {
+@media (min-width: 1070px) {
 	#restaurants-list li {
     	max-width: 30%;
 }}
@@ -16,12 +16,31 @@
 	    width: 50%;
 	   }
 }
-@media only screen and (max-width: 900px) {
+@media (max-width: 700px) {
 	section {
-    	min-width: 90%;
+    	min-width: 85%;
     	padding: 0;
     	margin: 0;
-}
+	}
+	.inside header {
+		position: static;
+	}
+	#restaurant-container {
+		padding: 40px 40px 30px;
+	}
 	.inside #map-container {
-		display: none;
-}}
+		height: 300px;
+		width: 100%;
+		position: static;
+	}
+	#breadcrumb {
+	    width: 100%;
+	}
+	.inside #footer {
+		width: 100%;
+		position: static;
+	}
+	#map {
+		position: static;
+	}
+}
